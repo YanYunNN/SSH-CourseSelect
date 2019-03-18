@@ -1,0 +1,123 @@
+/* LESS Document */
+* {
+	padding: 0px;
+	margin: 0px;
+	transition: all;
+	box-sizing: border-box;
+}
+
+input {
+	vertical-align: middle;
+}
+
+.style1 {
+	color: #FF0000;
+	font-size: 9pt;
+	margin-left:50px;
+}
+
+body {
+	font-size: 12px;
+	line-height: 25px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.logo {
+	background: url("images/logo.jpg") left center;
+	width: 1050px;
+	height: 125px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.login-box {
+	width: 100%;
+	padding-top: 125px;
+	height: 750px;
+	margin: 0px auto;
+	position: relative;
+	background: url("images/login-bg.jpg") no-repeat left center;
+}
+
+.login-bg {
+	background: url("images/login-div-bg.png") no-repeat;
+	padding-top: 80px;
+	margin-top: 40px;
+	margin-left: 65%;
+	width: 310px;
+	height: 400px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.login-bg table {
+	margin: 0 auto;
+}
+
+.login-bg table td {
+	height: 80px;
+}
+
+.login-bg .user {
+	border: 1px #a5a5a5 solid;
+	width: 270px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 10px 0px 40px;
+	background: url("images/ico-user.png") no-repeat 10px center #fff;
+}
+
+.login-bg .pw {
+	border: 1px #a5a5a5 solid;
+	width: 270px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 10px 0px 40px;
+	background: url("images/ico-pw.png") no-repeat 10px center #fff;
+}
+
+.login-bg input[type=submit] {
+	width: 80px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	font-size: 14px;
+	background: #C3282E;
+	border: 1px red solid;
+	width: 270px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 18px;
+}
+
+.login-bg a {
+	color: #c3282e;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.zhjh-a, .wjmm-a {
+	display: inline-block;
+	width: 49%;
+	height: 30px;
+	line-height: 30px;
+	background: url(images/btn-bg.png) repeat;
+	text-align: center;
+	margin-right: 1%;
+}
+
+#footer {
+	margin-top: -90px; text-align : center;
+	width: 100%;
+	color: #black;
+	height: 50px;
+	line-height: 20px;
+	position: relative;
+	clear: both;
+	background: url(images/logo-bot.gif) repeat;
+	text-align: center;
+}
